@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(62, 20, 20, 0.4),
+      rgba(62, 20, 20, 0.4)
+    ),
+    url("images/back.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  font-weight: 300;
+  position: relative;
+  height: 100vh;
+  color: #555;
+}
+
+.wrapper {
+  width: 360px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+  /*overflow: hidden;*/
+}
+
+.title {
+  padding: 15px;
+  background-color: #f14848;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+}
+
+.inputLogin {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #555;
+  font-size: 14px;
+  font-family: "Lato";
+  padding: 10px;
+  width: 320px;
+  text-transform: uppercase;
+}
+
+.inputLogin:focus {
+  outline: none;
+}
+
+#username {
+  top: 150px;
+}
+
+#password {
+  top: 210px;
+}
+
+.btn-login {
+  position: absolute;
+  top: 270px;
+  right: 20px;
+  color: #ffffff;
+  background-color: #f14848;
+  font-size: 14px;
+  font-family: "Lato";
+  letter-spacing: 5px;
+  cursor: pointer;
+  padding: 10px;
+  width: 120px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn-login:focus {
+  outline: none;
+}
+
+.btn-login:hover {
+  background-color: #f35e5e;
+  font-weight: 500;
+}
+
+.registerBox {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #555;
+  background: rgba(179, 179, 179, 0.3);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  border: none;
+}

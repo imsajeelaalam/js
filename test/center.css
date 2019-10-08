@@ -1,0 +1,9 @@
+.w {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "\2022";
+  font-size: 90px;
+  color: red;
+}
